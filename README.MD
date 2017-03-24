@@ -1,16 +1,16 @@
-# _{Portfolio}_
+# _{Track Suggester}_
 
-#### _{My Portfolio}, {3/17/2017}_
+#### _{Track Suggester}, {3/17/2017}_
 
 #### By _**{Jason Lazzuri}**_
 
 ## Description
 
-_{This webpage asks the user which coding language they should learn based on the feedback given. The feedback is given in a drop down menu form. The feedback given will either output C# Java or Ruby as a selection of programming language to learn in the future. [link](https://jasonlazzuri.github.io/Portfolio) }_
+_{This webpage asks the user which coding language they should learn based on the feedback given. The feedback is given in a drop down menu form. The feedback given will either output C# Java or Ruby as a selection of programming language to learn in the future. [link](https://github.com/JasonLazzuri/trackSuggester) }_
 
 ## Setup/Installation Requirements
 
-_{There is a wonderful navigation bar to help you quickly navigate to the places you want to see most, just click the link and it will put you there.}_
+_{Open the Webpage and click from the drop down menu}_
 
 ## Known Bugs
 
@@ -22,7 +22,7 @@ _{Feel free to email me at Jason.Lazzuri@gmail.com about any questions you might
 
 ## Technologies Used
 
-_{Languages used were HTML CSS and Bootstrap.}_
+_{Languages used were HTML CSS Bootstrap Jquery and Javascript}_
 
 ### License
 
