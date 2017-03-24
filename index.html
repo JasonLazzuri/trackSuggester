@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggestor</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <h2>Which Language is right for you?</h2>
+        <div class="form-group">
+          <label for="create">1. Would you like to work on database applications, simple yet elegant webpages, or work in multiple types of settings like web apps or even mobile apps?</label>
+          <select class="form-control" id="create">
+            <option>Database Applications</option>
+            <option>Simple yet Elegant Webpages</option>
+            <option>Multiple types of settings like Web Apps or even Mobile Apps</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="companies">2.Would you like to work for companies like Microsoft, Starbucks, Electronics Arts? Or Twitter, Soundcloud, Airbnb? Or Amazon, eBay, Netflix?</label>
+          <select class="form-control" id="companies">
+            <option>Microsoft, Starbucks, Electronics Arts</option>
+            <option>Twitter, Soundcloud, Airbnb</option>
+            <option>Amazon, eBay, Netflix</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="types">3.Would you like to work for a larger enterprise company, or for a startup company or a large/medium sized e-commerce company?
+          </label>
+          <select class="form-control" id="companies">
+            <option>Larger Enterprise Company</option>
+            <option>A Fresh new startup company</option>
+            <option>Medium sized e-commerce company</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="important">4.What is more important- working for a large company like Microsoft, learning an easy to learn language, or making mobile apps?
+          </label>
+          <select class="form-control" id="companies">
+            <option>Working for a Large Company like Microsoft</option>
+            <option>Learning an easy to learn language</option>
+            <option>Making mobile Apps</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="guess">5.What do you think you would most enjoy doing? Ruby? C# or Java?
+          </label>
+          <select class="form-control" id="companies">
+            <option>Ruby</option>
+            <option>C#</option>
+            <option>Java</option>
+          </select>
+        </div>
+        <button type="submit"class="btn">Evaluate!</button>
+
+        <div id="rubyChoice">
+        <h2>It looks like Ruby would be the best choice for you!</h2>
+        <p>Ruby is a great choice for people looking to create simple yet elegant websites. Websites like Twitter, AirBnB, Soundcloud and more all use Ruby. It is easy to learn as far as programming languages go and it is used by a lot of startup companies</p>
+        </div>
+        <div id="cChoice">
+        <h2>It looks like C# would be the best choice for you!</h2>
+        <p>C# is a great choice for people looking to create database applications as well as large distributed components. Companies like Microsoft, Starbucks and EA use C#. It is a great programming language for government agencies with large databases.</p>
+        </div>
+        <div id="javaChoice">
+        <h2>It looks like Java would be the best choice for you!</h2>
+        <p>Ruby is a great choice for people looking to work in multiple different types of settings like web apps or even mobile apps?. Companies like Amazon, eBay and Netflix all use Java as well as many Android developers. It is a staple of enterprise computing.</p>
+        </div>
+
+      </form>
+  </body>
+</html>
