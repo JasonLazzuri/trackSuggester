@@ -1,11 +1,78 @@
+body{
+  background-color: #EEF4FA;
+}
+
+
+
+#img{
+background-image: url(/Users/Jason/Desktop/tracksuggester/img/code.jpg
+);
+background-image: width:200px height: auto;
+}
+
+h2{
+  font-size: 100px;
+  color: white;
+  text-transform: full-width;
+  text-align: center;
+  font-family: sans-serif;
+}
+.well{
+  border: solid black 1px;
+}
+
+
+.jumbotron{
+  padding-top: -5px;
+  border: solid #7C7E83 1px;
+}
+
+.jumbotron1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  display: none;
+  padding-top: -5px;
+  border: solid #7C7E83 1px;
+}
+
+
+
+
+
 #rubyChoice{
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #7C7E83;
+  border-radius: 4px;
   display: none;
 }
 
 #cChoice{
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #7C7E83;
+  border-radius: 4px;
   display: none;
 }
 
 #javaChoice{
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #7C7E83;
+  border-radius: 4px;
   display: none;
+}
+
+.heading{
+  font-family: sans-serif;
+  font-style: oblique;
 }

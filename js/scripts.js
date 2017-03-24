@@ -16,12 +16,13 @@ $(document).ready(function() {
 
 
       if ((createResult === 15) || (createResult >= 11)){
-        alert("Java looks like a great choice!");$("#javaChoice").show();
+        alert("Java looks like a great choice!");$("#javaChoice").show();$(".jumbotron1").show();
       } else if ((createResult === 9)||(createResult === 5)||(createResult === 6)||(createResult === 7)){
-        alert("C# looks like a great choice!");$("#cChoice").show();
+        alert("C# looks like a great choice!");$("#cChoice").show();$(".jumbotron1").show();
       } else if (((createResult === 12)||(createResult === 8)) ||((createResult >= 9)&& (createResult <= 12))) {
-        alert("Ruby looks like a great choice!");$("#rubyChoice").show();
+        alert("Ruby looks like a great choice!");$("#rubyChoice").show();$(".jumbotron1").show();
       };
+
 
 
       // if ((create === 1 && companies === 1 && types === 1 && important === 1 && guess === 1)||
