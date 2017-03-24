@@ -14,11 +14,11 @@ $(document).ready(function() {
       var createResult = create1(create,companies,types,important,guess);
 
       if ((createResult === 15) || (createResult >= 11)){
-        alert("Java looks like a great choice!");$("#javaChoice").show();$(".jumbotron1").show();
+        alert("Java looks like a great choice!");$("#javaChoice").show();$(".jumbotron1").show();$("#rubyChoice").hide();$("#cChoice").hide();
       } else if ((createResult === 9)||(createResult === 5)||(createResult === 6)||(createResult === 7)){
-        alert("C# looks like a great choice!");$("#cChoice").show();$(".jumbotron1").show();
+        alert("C# looks like a great choice!");$("#cChoice").show();$(".jumbotron1").show();$("#javaChoice").hide();$("#rubyChoice").hide()
       } else if (((createResult === 12)||(createResult === 8)) ||((createResult >= 9)&& (createResult <= 12))) {
-        alert("Ruby looks like a great choice!");$("#rubyChoice").show();$(".jumbotron1").show();
+        alert("Ruby looks like a great choice!");$("#rubyChoice").show();$(".jumbotron1").show();$("#javaChoice").hide();$("#cChoice").hide();
       };
 
 
