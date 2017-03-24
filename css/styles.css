@@ -1,9 +1,6 @@
 body{
   background-color: #EEF4FA;
 }
-
-
-
 #img{
 background-image: url(/Users/Jason/Desktop/tracksuggester/img/code.jpg
 );
@@ -19,6 +16,8 @@ h2{
 }
 .well{
   border: solid black 1px;
+  font-family: monospace;
+
 }
 
 
@@ -37,8 +36,6 @@ h2{
   padding-top: -5px;
   border: solid #7C7E83 1px;
 }
-
-
 
 
 #rubyChoice{
@@ -72,6 +69,6 @@ h2{
 }
 
 .heading{
-  font-family: sans-serif;
-  font-style: oblique;
+  font-family: fantasy;
+   ;
 }
