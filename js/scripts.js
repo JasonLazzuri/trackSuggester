@@ -13,8 +13,6 @@ $(document).ready(function() {
       var guess = parseInt($("#guess").val());
       var createResult = create1(create,companies,types,important,guess);
 
-
-
       if ((createResult === 15) || (createResult >= 11)){
         alert("Java looks like a great choice!");$("#javaChoice").show();$(".jumbotron1").show();
       } else if ((createResult === 9)||(createResult === 5)||(createResult === 6)||(createResult === 7)){
